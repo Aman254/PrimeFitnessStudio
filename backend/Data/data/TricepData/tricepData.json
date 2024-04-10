@@ -1,0 +1,172 @@
+[
+  {
+    "id": 0,
+    "name": "Tricep Dips",
+    "bodyPart": "Triceps",
+    "focusArea": "Triceps, Chest, Shoulders",
+    "equipment": "Parallel Bars, Dip Machine",
+    "execution": [
+      "Start by supporting yourself on parallel bars with your arms fully extended and your body vertical",
+      "Lower your body by bending your elbows until your upper arms are parallel to the ground",
+      "Push yourself back up to the starting position by straightening your arms"
+    ],
+    "imageCover": "Triceps-image-Cover.jpg",
+    "images": ["triceps-1.jpg", "triceps-2.jpg"],
+    "videoUrl": "https://www.youtube.com/watch?v=exampleTricepDips"
+  },
+  {
+    "id": 1,
+    "name": "Tricep Rope Pushdown",
+    "bodyPart": "Triceps",
+    "focusArea": "Triceps",
+    "equipment": "Cable Machine, Rope Attachment",
+    "execution": [
+      "Stand in front of a cable machine with a rope attachment at chest height",
+      "Grasp the rope with an overhand grip, hands shoulder-width apart",
+      "Exhale and extend your arms downward, squeezing your triceps at the bottom",
+      "Inhale and return to the starting position, keeping control"
+    ],
+    "imageCover": "Triceps-image-Cover.jpg",
+    "images": ["triceps-1.jpg", "triceps-2.jpg"],
+    "videoUrl": "https://www.youtube.com/watch?v=exampleTricepRopePushdown"
+  },
+  {
+    "id": 2,
+    "name": "Skull Crushers - EZ-Bar",
+    "bodyPart": "Triceps",
+    "focusArea": "Triceps",
+    "equipment": "EZ-Bar, Bench",
+    "execution": [
+      "Lie on a bench with an EZ-bar in your hands, arms extended vertically above your chest",
+      "Bend your elbows to lower the bar towards your forehead, keeping your upper arms stationary",
+      "Exhale and extend your arms back to the starting position, keeping control"
+    ],
+    "imageCover": "Triceps-image-Cover.jpg",
+    "images": ["triceps-1.jpg", "triceps-2.jpg"],
+    "videoUrl": "https://www.youtube.com/watch?v=exampleSkullCrushers"
+  },
+  {
+    "id": 3,
+    "name": "Overhead Tricep Extension - Dumbbell",
+    "bodyPart": "Triceps",
+    "focusArea": "Triceps",
+    "equipment": "Dumbbell",
+    "execution": [
+      "Stand or sit with a dumbbell in one hand, arm extended overhead",
+      "Bend your elbow to lower the dumbbell behind your head, keeping your upper arm stationary",
+      "Exhale and extend your arm back to the starting position, keeping control"
+    ],
+    "imageCover": "Triceps-image-Cover.jpg",
+    "images": ["triceps-1.jpg", "triceps-2.jpg"],
+    "videoUrl": "https://www.youtube.com/watch?v=exampleOverheadTricepExtension"
+  },
+  {
+    "id": 4,
+    "name": "Tricep Kickbacks - Dumbbell",
+    "bodyPart": "Triceps",
+    "focusArea": "Triceps",
+    "equipment": "Dumbbells",
+    "execution": [
+      "Stand with a dumbbell in each hand and lean forward at the hips",
+      "Keep your upper arms close to your body and extend your forearms back until your arms are straight",
+      "Exhale and squeeze your triceps, then return to the starting position with control"
+    ],
+    "imageCover": "Triceps-image-Cover.jpg",
+    "images": ["triceps-1.jpg", "triceps-2.jpg"],
+    "videoUrl": "https://www.youtube.com/watch?v=exampleTricepKickbacks"
+  },
+  {
+    "id": 5,
+    "name": "Close Grip Bench Press",
+    "bodyPart": "Triceps",
+    "focusArea": "Triceps, Chest, Shoulders",
+    "equipment": "Barbell, Bench",
+    "execution": [
+      "Lie on a flat bench with a barbell, hands closer than shoulder-width apart",
+      "Lower the barbell to your chest, keeping your elbows close to your body",
+      "Exhale and press the barbell back up to the starting position, keeping control"
+    ],
+    "imageCover": "Triceps-image-Cover.jpg",
+    "images": ["triceps-1.jpg", "triceps-2.jpg"],
+    "videoUrl": "https://www.youtube.com/watch?v=exampleCloseGripBenchPress"
+  },
+  {
+    "id": 6,
+    "name": "Tricep Pushdown - Straight Bar",
+    "bodyPart": "Triceps",
+    "focusArea": "Triceps",
+    "equipment": "Cable Machine, Straight Bar Attachment",
+    "execution": [
+      "Stand in front of a cable machine with a straight bar attached to the high pulley",
+      "Grasp the bar with an overhand grip, hands shoulder-width apart",
+      "Exhale and extend your arms downward, squeezing your triceps at the bottom",
+      "Inhale and return to the starting position, keeping control"
+    ],
+    "imageCover": "Triceps-image-Cover.jpg",
+    "images": ["triceps-1.jpg", "triceps-2.jpg"],
+    "videoUrl": "https://www.youtube.com/watch?v=exampleTricepPushdownStraightBar"
+  },
+  {
+    "id": 7,
+    "name": "Diamond Push-Ups",
+    "bodyPart": "Triceps",
+    "focusArea": "Triceps, Chest, Shoulders",
+    "equipment": "Body Weight",
+    "execution": [
+      "Get into a push-up position with your hands close together, forming a diamond shape with your index fingers and thumbs",
+      "Lower your body until your chest nearly touches the ground",
+      "Push yourself back up to the starting position by straightening your arms"
+    ],
+    "imageCover": "Triceps-image-Cover.jpg",
+    "images": ["triceps-1.jpg", "triceps-2.jpg"],
+    "videoUrl": "https://www.youtube.com/watch?v=exampleDiamondPushUps"
+  },
+  {
+    "id": 8,
+    "name": "Tricep Overhead Extension - Cable",
+    "bodyPart": "Triceps",
+    "focusArea": "Triceps",
+    "equipment": "Cable Machine, Rope Attachment",
+    "execution": [
+      "Stand facing away from the cable machine with a rope attachment at the high pulley",
+      "Grasp the rope with both hands behind your head, elbows bent",
+      "Exhale and extend your arms overhead, squeezing your triceps at the bottom",
+      "Inhale and return to the starting position, keeping control"
+    ],
+    "imageCover": "Triceps-image-Cover.jpg",
+    "images": ["triceps-1.jpg", "triceps-2.jpg"],
+    "videoUrl": "https://www.youtube.com/watch?v=exampleTricepOverheadExtension"
+  },
+  {
+    "id": 9,
+    "name": "Tricep Bench Dips",
+    "bodyPart": "Triceps",
+    "focusArea": "Triceps, Chest, Shoulders",
+    "equipment": "Bench",
+    "execution": [
+      "Sit on the edge of a bench with your hands gripping the edge, fingers pointing forward",
+      "Walk your feet forward until your knees are at a 90-degree angle",
+      "Lower your body by bending your elbows until your upper arms are parallel to the ground",
+      "Push yourself back up to the starting position by straightening your arms"
+    ],
+    "imageCover": "Triceps-image-Cover.jpg",
+    "images": ["triceps-1.jpg", "triceps-2.jpg"],
+    "videoUrl": "https://www.youtube.com/watch?v=exampleTricepBenchDips"
+  },
+  {
+    "id": 10,
+    "name": "Tricep Cable Kickbacks",
+    "bodyPart": "Triceps",
+    "focusArea": "Triceps",
+    "equipment": "Cable Machine, Single Handle Attachment",
+    "execution": [
+      "Stand facing the cable machine with a single handle attachment at the low pulley",
+      "Grasp the handle with one hand and extend your arm behind you",
+      "Exhale and fully extend your arm backward, squeezing your triceps at the top",
+      "Inhale and return to the starting position, keeping control"
+    ],
+    "imageCover": "Triceps-image-Cover.jpg",
+    "images": ["triceps-1.jpg", "triceps-2.jpg"],
+    "videoUrl": "https://www.youtube.com/watch?v=exampleTricepCableKickbacks"
+  }
+]
