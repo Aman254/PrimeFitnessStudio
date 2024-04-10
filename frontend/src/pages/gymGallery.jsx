@@ -1,7 +1,14 @@
 import React from "react";
-import gymImage from "../Assets/gymImage.jpeg";
-import gymImag1 from "../Assets/gymimage1.jpg";
-import gymImage3 from "../Assets/gymImage3.jpg";
+import gymImage from "../Assets/gymImages/gymImg4.jpg";
+import gymImag1 from "../Assets/gymImages/gymImg1.jpg";
+import gymImag2 from "../Assets/gymImages/gymImg2.jpg";
+import gymImag3 from "../Assets/gymImages/gymImg3.jpg";
+import gymImag4 from "../Assets/gymImages/gymImg11.jpg";
+import gymImag5 from "../Assets/gymImages/gymImg5.jpg";
+import gymImag6 from "../Assets/gymImages/gymImg6.jpg";
+import gymImag7 from "../Assets/gymImages/gymImg7.jpg";
+import gymImag8 from "../Assets/gymImages/gymImg8.jpg";
+import gymImag9 from "../Assets/gymImages/gymImg10.jpg";
 
 const GymGallery = () => {
   return (
@@ -24,7 +31,7 @@ const GymGallery = () => {
         </div>
         <div>
           <img
-            src={gymImage3}
+            src={gymImag2}
             alt="Ima"
             className="h-[25rem] md:w-[30rem] w-full mt-6 rounded-lg shadow-lg"
           />

@@ -1,7 +1,6 @@
 import React from "react";
 import { CiCircleCheck } from "react-icons/ci";
-import gymgirl from "../Assets/gymgirl.jpg";
-
+import gymImg from "../Assets/gymImages/gymImg10.jpg";
 const aboutTrainerPage = () => {
   return (
     <div className="md:flex flex-row w-full justify-between  items-center">
@@ -52,7 +51,7 @@ const aboutTrainerPage = () => {
         </button>
       </div>
       <div className="md:w-1/2 w-full md:mt-0 mt-6">
-        <img src={gymgirl} alt="Images" className=" object-cover rounded-lg" />
+        <img src={gymImg} alt="Images" className=" object-cover rounded-lg" />
       </div>
     </div>
   );
