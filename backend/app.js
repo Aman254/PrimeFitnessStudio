@@ -3,6 +3,8 @@ const express = require("express");
 const morgan = require("morgan");
 
 const app = express();
+
+app.use(morgan("dev"));
 const exercises = JSON.parse(
   fs.readFileSync(`${__dirname}/Data/data/CompleteData/completedata.json`)
 );
@@ -16,5 +18,4 @@ app.get("/api/v1/exercises", (re, res) => {
   });
 });
 
-app.use(morgan("dev"));
 module.exports = app;
