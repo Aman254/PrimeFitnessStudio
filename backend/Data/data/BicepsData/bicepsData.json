@@ -11,7 +11,6 @@
       "Inhale and lower the barbell back to the starting position, keeping control"
     ],
     "imageCover": "Biceps-image-Cover.jpg",
-    "images": ["biceps-1.jpg", "biceps-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleBarbellCurl"
   },
   {
@@ -26,7 +25,6 @@
       "Inhale and lower the dumbbells back to the starting position, keeping control"
     ],
     "imageCover": "Biceps-image-Cover.jpg",
-    "images": ["biceps-1.jpg", "biceps-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleHammerCurl"
   },
   {
@@ -41,7 +39,6 @@
       "Inhale and lower the bar back to the starting position, keeping control"
     ],
     "imageCover": "Biceps-image-Cover.jpg",
-    "images": ["biceps-1.jpg", "biceps-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=examplePreacherCurl"
   },
   {
@@ -57,7 +54,6 @@
       "Inhale and lower the dumbbell back to the starting position, keeping control"
     ],
     "imageCover": "Biceps-image-Cover.jpg",
-    "images": ["biceps-1.jpg", "biceps-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleConcentrationCurl"
   },
   {
@@ -73,7 +69,6 @@
       "Inhale and lower the bar back to the starting position, keeping control"
     ],
     "imageCover": "Biceps-image-Cover.jpg",
-    "images": ["biceps-1.jpg", "biceps-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleEZBarPreacherCurl"
   },
   {
@@ -88,7 +83,6 @@
       "Inhale and lower the dumbbells back to the starting position, keeping control"
     ],
     "imageCover": "Biceps-image-Cover.jpg",
-    "images": ["biceps-1.jpg", "biceps-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleInclineDumbbellCurl"
   },
   {
@@ -104,7 +98,6 @@
       "Inhale and lower the bar back to the starting position, keeping control"
     ],
     "imageCover": "Biceps-image-Cover.jpg",
-    "images": ["biceps-1.jpg", "biceps-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleCableCurlStraightBar"
   },
   {
@@ -119,7 +112,6 @@
       "Inhale and lower the bar back to the starting position, keeping control"
     ],
     "imageCover": "Biceps-image-Cover.jpg",
-    "images": ["biceps-1.jpg", "biceps-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleReverseCurl"
   },
   {
@@ -135,7 +127,6 @@
       "Alternate between arms"
     ],
     "imageCover": "Biceps-image-Cover.jpg",
-    "images": ["biceps-1.jpg", "biceps-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleSeatedAlternatingDumbbellCurl"
   },
   {
@@ -151,7 +142,6 @@
       "Inhale and lower the bar back to the starting position, keeping control"
     ],
     "imageCover": "Biceps-image-Cover.jpg",
-    "images": ["biceps-1.jpg", "biceps-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleSpiderCurl"
   },
   {
@@ -167,7 +157,6 @@
       "Inhale and lower the bar back to the starting position, keeping control"
     ],
     "imageCover": "Biceps-image-Cover.jpg",
-    "images": ["biceps-1.jpg", "biceps-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleStandingCableCurl"
   }
 ]

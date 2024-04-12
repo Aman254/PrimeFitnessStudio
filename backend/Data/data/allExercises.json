@@ -1197,7 +1197,6 @@
       "Push yourself back up to the starting position by straightening your arms"
     ],
     "imageCover": "Triceps-image-Cover.jpg",
-    "images": ["triceps-1.jpg", "triceps-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleTricepDips"
   },
   {
@@ -1213,7 +1212,6 @@
       "Inhale and return to the starting position, keeping control"
     ],
     "imageCover": "Triceps-image-Cover.jpg",
-    "images": ["triceps-1.jpg", "triceps-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleTricepRopePushdown"
   },
   {
@@ -1228,7 +1226,6 @@
       "Exhale and extend your arms back to the starting position, keeping control"
     ],
     "imageCover": "Triceps-image-Cover.jpg",
-    "images": ["triceps-1.jpg", "triceps-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleSkullCrushers"
   },
   {
@@ -1243,7 +1240,6 @@
       "Exhale and extend your arm back to the starting position, keeping control"
     ],
     "imageCover": "Triceps-image-Cover.jpg",
-    "images": ["triceps-1.jpg", "triceps-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleOverheadTricepExtension"
   },
   {
@@ -1258,7 +1254,6 @@
       "Exhale and squeeze your triceps, then return to the starting position with control"
     ],
     "imageCover": "Triceps-image-Cover.jpg",
-    "images": ["triceps-1.jpg", "triceps-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleTricepKickbacks"
   },
   {
@@ -1273,7 +1268,6 @@
       "Exhale and press the barbell back up to the starting position, keeping control"
     ],
     "imageCover": "Triceps-image-Cover.jpg",
-    "images": ["triceps-1.jpg", "triceps-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleCloseGripBenchPress"
   },
   {
@@ -1289,7 +1283,6 @@
       "Inhale and return to the starting position, keeping control"
     ],
     "imageCover": "Triceps-image-Cover.jpg",
-    "images": ["triceps-1.jpg", "triceps-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleTricepPushdownStraightBar"
   },
   {
@@ -1304,7 +1297,6 @@
       "Push yourself back up to the starting position by straightening your arms"
     ],
     "imageCover": "Triceps-image-Cover.jpg",
-    "images": ["triceps-1.jpg", "triceps-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleDiamondPushUps"
   },
   {
@@ -1320,7 +1312,6 @@
       "Inhale and return to the starting position, keeping control"
     ],
     "imageCover": "Triceps-image-Cover.jpg",
-    "images": ["triceps-1.jpg", "triceps-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleTricepOverheadExtension"
   },
   {
@@ -1336,7 +1327,6 @@
       "Push yourself back up to the starting position by straightening your arms"
     ],
     "imageCover": "Triceps-image-Cover.jpg",
-    "images": ["triceps-1.jpg", "triceps-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleTricepBenchDips"
   },
   {
@@ -1352,7 +1342,6 @@
       "Inhale and return to the starting position, keeping control"
     ],
     "imageCover": "Triceps-image-Cover.jpg",
-    "images": ["triceps-1.jpg", "triceps-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleTricepCableKickbacks"
   }
 ]

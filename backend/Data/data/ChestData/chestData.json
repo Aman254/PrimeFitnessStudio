@@ -11,7 +11,6 @@
       "Inhale, return to the starting position and repeat"
     ],
     "imageCover": "Chest-image-Cover.jpg",
-    "images": ["chest-1.jpg", "chest-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleCableFly"
   },
   {
@@ -26,7 +25,6 @@
       "Inhale, return to the starting position and repeat"
     ],
     "imageCover": "Chest-image-Cover.jpg",
-    "images": ["chest-1.jpg", "chest-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleDumbellFly"
   },
   {
@@ -40,7 +38,6 @@
       "Inhale and slowly lower the bar to the starting position and repeat"
     ],
     "imageCover": "Chest-image-Cover.jpg",
-    "images": ["chest-1.jpg", "chest-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleBenchPress"
   },
   {
@@ -54,7 +51,6 @@
       "Inhale and slowly lower the bar to the starting position and repeat"
     ],
     "imageCover": "Chest-image-Cover.jpg",
-    "images": ["chest-1.jpg", "chest-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleBenchPress"
   },
   {
@@ -68,21 +64,19 @@
       "Exhale and bring dumbells back to the preperation position and repeat"
     ],
     "imageCover": "Chest-image-Cover.jpg",
-    "images": ["chest-1.jpg", "chest-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleBenchPress"
   },
   {
     "id": 5,
     "name": "Incline Bech Press-BArbell",
     "bodyPart": "Chest",
-    "focusArea": "Chest, Shoulders, Triceps",
+    "focusArea": "Chest",
     "equipment": "Barbell, Incline Bench",
     "execution": [
       "Exhale and squeeze your chest to push the bar up to extend your arms straight",
       "Inhale and slowly lower your bar to just above your chest and repeat"
     ],
     "imageCover": "Chest-image-Cover.jpg",
-    "images": ["chest-1.jpg", "chest-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleBenchPress"
   },
   {
@@ -96,7 +90,6 @@
       "Exhale and Raise your Body back to the starting position and repeat"
     ],
     "imageCover": "Chest-image-Cover.jpg",
-    "images": ["chest-1.jpg", "chest-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleBenchPress"
   },
   {
@@ -110,21 +103,19 @@
       "Streach out your chest and pause for a few seconds"
     ],
     "imageCover": "Chest-image-Cover.jpg",
-    "images": ["chest-1.jpg", "chest-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleBenchPress"
   },
   {
     "id": 8,
     "name": "Seated Chest Fly - Machine",
     "bodyPart": "Chest",
-    "focusArea": "Chest, Shoulders, Biceps",
+    "focusArea": "Shoulders, Chest,  Biceps",
     "equipment": "Pec Deck Machine",
     "execution": [
       "Exhale, and squeez your chest and press the handles together as close as possible",
       "Pause for a few seconds, inahle and return tot he starting positio slowly and repeat"
     ],
     "imageCover": "Chest-image-Cover.jpg",
-    "images": ["chest-1.jpg", "chest-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleBenchPress"
   },
   {
@@ -138,7 +129,6 @@
       "Inhale and return tot he starting position slowly and repeat"
     ],
     "imageCover": "Chest-image-Cover.jpg",
-    "images": ["chest-1.jpg", "chest-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleBenchPress"
   },
   {
@@ -152,7 +142,6 @@
       "Pause for a few seconds and push yourself up to the starting position slowly and repeat"
     ],
     "imageCover": "Chest-image-Cover.jpg",
-    "images": ["chest-1.jpg", "chest-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleBenchPress"
   }
 ]

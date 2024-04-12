@@ -12,7 +12,6 @@
       "Land softly, bending your knees to absorb the impact, and immediately go into the next repetition"
     ],
     "imageCover": "Athlete-image-Cover.jpg",
-    "images": ["athlete-1.jpg", "athlete-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleSquatJumps"
   },
   {
@@ -28,7 +27,6 @@
       "Land softly on the box with your knees slightly bent, then step or jump back down and repeat"
     ],
     "imageCover": "Athlete-image-Cover.jpg",
-    "images": ["athlete-1.jpg", "athlete-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleBoxJumps"
   },
   {
@@ -44,7 +42,6 @@
       "Repeat for several sets or time intervals"
     ],
     "imageCover": "Athlete-image-Cover.jpg",
-    "images": ["athlete-1.jpg", "athlete-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleAgilityLadderDrills"
   },
   {
@@ -60,7 +57,6 @@
       "Catch the ball or retrieve it and repeat for the desired number of repetitions or time"
     ],
     "imageCover": "Athlete-image-Cover.jpg",
-    "images": ["athlete-1.jpg", "athlete-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleMedicineBallThrows"
   },
   {
@@ -76,7 +72,6 @@
       "Rest and repeat for multiple sets or intervals"
     ],
     "imageCover": "Athlete-image-Cover.jpg",
-    "images": ["athlete-1.jpg", "athlete-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleSprints"
   },
   {
@@ -92,7 +87,6 @@
       "Repeat for the desired number of repetitions"
     ],
     "imageCover": "Athlete-image-Cover.jpg",
-    "images": ["athlete-1.jpg", "athlete-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=examplePullUps"
   },
   {
@@ -108,7 +102,6 @@
       "Repeat for the desired number of repetitions"
     ],
     "imageCover": "Athlete-image-Cover.jpg",
-    "images": ["athlete-1.jpg", "athlete-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=examplePushUps"
   },
   {
@@ -124,7 +117,6 @@
       "Maintain a fast pace and focus on proper technique throughout the workout"
     ],
     "imageCover": "Athlete-image-Cover.jpg",
-    "images": ["athlete-1.jpg", "athlete-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleBoxing"
   },
   {
@@ -141,7 +133,6 @@
       "Focus on explosiveness and power throughout the movement"
     ],
     "imageCover": "Athlete-image-Cover.jpg",
-    "images": ["athlete-1.jpg", "athlete-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=examplePlyometricPushUps"
   },
   {
@@ -157,7 +148,6 @@
       "Continue bounding laterally back and forth for the desired number of repetitions or time"
     ],
     "imageCover": "Athlete-image-Cover.jpg",
-    "images": ["athlete-1.jpg", "athlete-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleLateralBounds"
   },
   {
@@ -174,7 +164,6 @@
       "Land softly and immediately go into the next repetition"
     ],
     "imageCover": "Athlete-image-Cover.jpg",
-    "images": ["athlete-1.jpg", "athlete-2.jpg"],
     "videoUrl": "https://www.youtube.com/watch?v=exampleBurpees"
   }
 ]

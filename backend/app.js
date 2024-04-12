@@ -1,21 +1,10 @@
-const fs = require("fs");
 const express = require("express");
 const morgan = require("morgan");
+const exerciseRouter = require("./Routes/exerciseRoutes");
 
 const app = express();
-
 app.use(morgan("dev"));
-const exercises = JSON.parse(
-  fs.readFileSync(`${__dirname}/Data/data/CompleteData/completedata.json`)
-);
-app.get("/api/v1/exercises", (re, res) => {
-  res.status(200).json({
-    status: "Sucess",
-    results: exercises.length,
-    data: {
-      exercises,
-    },
-  });
-});
+app.use(express.json());
+app.use("/api/v1/exercises", exerciseRouter);
 
 module.exports = app;
