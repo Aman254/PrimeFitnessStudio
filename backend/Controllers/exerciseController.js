@@ -1,8 +1,7 @@
 const Exercise = require("./../Models/exerciseModel");
 const ApiFeatures = require("./../utils/apiFeatures");
-const catchAsync = require("./../utils/catchAsync");
 
-exports.getAllExercises = catchAsync(async (req, res, next) => {
+exports.getAllExercises = async (req, res, next) => {
   const features = new ApiFeatures(Exercise.find(), req.query)
     .filter()
     .limitFields()
@@ -19,4 +18,26 @@ exports.getAllExercises = catchAsync(async (req, res, next) => {
       exercises,
     },
   });
-});
+};
+
+exports.getExercise = async (req, res, next) => {
+  try {
+    const exercise = await Exercise.findById(req.params.id);
+
+    if (!exercise) {
+      throw new Error("Can Find Exercise with the Id");
+    }
+
+    res.status(200).json({
+      status: "Sucess",
+      data: {
+        exercise,
+      },
+    });
+  } catch (error) {
+    res.status(400).json({
+      status: "Failed",
+      message: err,
+    });
+  }
+};

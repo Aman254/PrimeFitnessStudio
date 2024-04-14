@@ -60,7 +60,7 @@ const Navbar = () => {
               <ul>
                 <li>
                   <Link
-                    to="/login"
+                    to="/exercises"
                     className="font-semibold text-yellow-400 p-2 rounded-lg hover:bg-yellow-400 
                   transition-all hover:text-black"
                   >
@@ -137,7 +137,7 @@ const Navbar = () => {
             <div className=" p-4 bg-yellow-400 transition-all font-bold text-2xl border border-b-black">
               <ul>
                 <li>
-                  <Link to="/membership">Workout</Link>
+                  <Link to="/exercises">Workout</Link>
                 </li>
               </ul>
             </div>

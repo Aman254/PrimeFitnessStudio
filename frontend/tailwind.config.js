@@ -1,6 +1,13 @@
 module.exports = {
+  content: [
+    // ... (other paths),
+    "node_modules/flowbite-react/lib/esm/**/*.js",
+  ],
+
   purge: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
+
   darkMode: false, // or 'media' or 'class'
+
   theme: {
     extend: {
       fontFamily: {
@@ -9,8 +16,10 @@ module.exports = {
       },
     },
   },
+
   variants: {
     extend: {},
   },
-  plugins: [],
+
+  plugins: [require("flowbite/plugin")],
 };

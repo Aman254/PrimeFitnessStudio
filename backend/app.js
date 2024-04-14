@@ -1,20 +1,23 @@
 const express = require("express");
 const morgan = require("morgan");
+const cors = require("cors");
 const AppError = require("./utils/appError");
-const globalErrorHandler = require("./Controllers/errorController");
+
 const exerciseRouter = require("./Routes/exerciseRoutes");
+const userRouter = require("./Routes/userRoutes");
 
 const app = express();
+app.use(cors());
+
 app.use(morgan("dev"));
 app.use(express.json());
 
 //Routes
 app.use("/api/v1/exercises", exerciseRouter);
-// app.use("/api/v1/users")
+app.use("/api/v1/users", userRouter);
 
 app.all("*", (req, res, next) => {
   next(new AppError(`Can't find ${req.originalUrl} on this Server`, 404));
 });
 
-app.use(globalErrorHandler);
 module.exports = app;
