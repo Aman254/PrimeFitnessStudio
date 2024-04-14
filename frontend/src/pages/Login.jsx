@@ -2,7 +2,7 @@ import React from "react";
 import image from "./../Assets/slidingImage/image7.jpg";
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
-import { FcGoogle } from "react-icons/fc";
+// import { FcGoogle } from "react-icons/fc";
 
 const Login = () => {
   return (
@@ -21,7 +21,7 @@ const Login = () => {
               <span className="">Hi, Welcome Back ✋</span>
             </div>
 
-            <div class="mt-4 w-full">
+            {/* <div class="mt-4 w-full">
               <button
                 class="bg-yellow-400 hover:bg-yellow-300 transition-all flex items-center 
               justify-center rounded-md p-4 text-black font-medium shadow-xl w-full"
@@ -29,11 +29,11 @@ const Login = () => {
                 <FcGoogle class="mr-2" />
                 Login with Google
               </button>
-            </div>
-            <div className="text-center mt-6">
+            </div> */}
+            {/* <div className="text-center mt-6">
               <hr className="mt-6" />
               <span className="text-gray-400">or Login with Email</span>
-            </div>
+            </div> */}
             <div className="mt-6">
               <span className=" font-medium">Email</span>
               <div className="  rounded-md">
