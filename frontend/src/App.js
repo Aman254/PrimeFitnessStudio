@@ -6,6 +6,7 @@ import Membership from "./pages/Membership";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Exercises from "./pages/exercises";
+import Carousel from "./components/Carousel";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -36,6 +37,10 @@ const App = () => {
     {
       path: "/exercises",
       element: <Exercises />,
+    },
+    {
+      path: "/carousel",
+      element: <Carousel />,
     },
   ]);
 

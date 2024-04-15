@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Logo from "../Assets/logo.jpeg";
 import { GiHamburgerMenu } from "react-icons/gi";
 
-const Navbar = () => {
+const Navbar = (props) => {
   const [isOpen, setIsOpen] = useState(true);
   const handleHamburgerClick = function () {
     setIsOpen(!isOpen);
