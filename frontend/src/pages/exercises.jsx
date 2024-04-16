@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { fetchExercises } from "../Services/api";
 import Navbar from "../components/Navbar";
 import Carousel from "../components/Carousel";
-import { FaArrowRight } from "react-icons/fa";
+import ExerciseBox from "../components/ExerciseBox";
 
 const Exercises = () => {
   const [Exercise, setExercise] = useState([]);
@@ -29,7 +29,7 @@ const Exercises = () => {
     }, 3000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [messages.length]);
   //   console.log(Exercise);
   return (
     <>
@@ -45,7 +45,7 @@ const Exercises = () => {
               </span>
             </div>
 
-            <div className="mt-6">
+            <div className="mt-20">
               <span className="font-bold font-oswald md:text-6xl text-4xl">
                 Prime Fitness Studio
               </span>
@@ -57,13 +57,27 @@ const Exercises = () => {
               Checkout the most Effective exercise personalized for you
             </span>
           </div>
+
+          <div className="mt-8">
+            <button
+              className="border border-yellow-400 p-4 rounded-lg font-poppins font-normal 
+            hover:border-yellow-200 transition-all"
+            >
+              Explore Exercises
+            </button>
+          </div>
         </div>
         <div className="">
           <Carousel />
         </div>
       </div>
 
-      <div className="bg-white w-full h-screen"></div>
+      <div className="bg-white w-full h-screen">
+        <div className="m-4 p-2">
+          <div></div>
+          <ExerciseBox />
+        </div>
+      </div>
     </>
   );
 };
