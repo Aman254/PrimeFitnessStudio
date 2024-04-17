@@ -74,7 +74,7 @@ const Exercises = () => {
 
       <div className="bg-white w-full h-screen">
         <div className="m-4 p-2">
-          <div></div>
+          <div>{Exercise.length}</div>
           <ExerciseBox />
         </div>
       </div>

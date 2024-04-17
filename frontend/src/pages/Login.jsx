@@ -1,26 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import image from "./../Assets/slidingImage/image7.jpg";
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
-import Avatar from "../components/Avatar";
-import { loginUser } from "../Services/api";
-import axios from "axios";
 
 const Login = () => {
-  const [formData, setFormData] = useState({
-    email: "",
-    password: "",
-  });
-
-  const { email, password } = formData;
-
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: [e.target.value] });
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-  };
   return (
     <>
       <Navbar />
