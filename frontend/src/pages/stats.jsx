@@ -32,7 +32,7 @@ const stats = () => {
         {/* Box3  */}
         <div className=" md:w-1/4 w-full mt-4">
           <div className="text-center">
-            <span className=" text-9xl font-extrabold">4+</span>
+            <span className=" text-9xl font-extrabold">3+</span>
           </div>
           <div className="text-center">
             <span className="text-xl font-semibold">Years of Experience</span>
