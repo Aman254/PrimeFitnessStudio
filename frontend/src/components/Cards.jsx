@@ -1,5 +1,4 @@
 import React from "react";
-import { CiCircleCheck } from "react-icons/ci";
 import Infobox from "./Infobox";
 
 const Cards = () => {
