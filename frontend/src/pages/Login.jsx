@@ -1,9 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
 import image from "./../Assets/slidingImage/image7.jpg";
 import Navbar from "../components/Navbar";
-import { Link } from "react-router-dom";
+import { loginUser } from "../Services/api";
+import { Link, useNavigate } from "react-router-dom";
 
 const Login = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
+  let history = useNavigate();
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const userData = {
+        email,
+        password,
+      };
+
+      const response = await loginUser(userData);
+      if (response.token) {
+        localStorage.setItem("authToken", response.token);
+        history("/exercises");
+      } else {
+        setError(response.message);
+      }
+    } catch (error) {
+      if (error.response.status === 401) {
+        setError("Incorrect Email or Password");
+      } else if (error.response && error.response.data) {
+        setError(error.response.data.message);
+      } else {
+        setError("An Error Occured please try again");
+      }
+    }
+  };
+
   return (
     <>
       <Navbar />
@@ -19,28 +51,16 @@ const Login = () => {
             <div className="w-full">
               <span className="">Hi, Welcome Back ✋</span>
             </div>
-
-            {/* <div class="mt-4 w-full">
-              <button
-                class="bg-yellow-400 hover:bg-yellow-300 transition-all flex items-center 
-              justify-center rounded-md p-4 text-black font-medium shadow-xl w-full"
-              >
-                <FcGoogle class="mr-2" />
-                Login with Google
-              </button>
-            </div> */}
-            {/* <div className="text-center mt-6">
-              <hr className="mt-6" />
-              <span className="text-gray-400">or Login with Email</span>
-            </div> */}
             <div className="mt-6">
               <span className=" font-medium">Email</span>
               <div className="  rounded-md">
                 <input
-                  type="string"
+                  type="email"
                   placeholder="Enter your Email..."
                   className="p-4 rounded-md focus:outline-none text-black font-medium font-poppins 
                   w-full shadow-xl "
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
             </div>
@@ -54,6 +74,8 @@ const Login = () => {
                   type="password"
                   placeholder="Enter your Password..."
                   className="p-4 shadow-xl rounded-md focus:outline-none text-black font-medium font-poppins w-full"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
                 />
               </div>
             </div>
@@ -68,14 +90,17 @@ const Login = () => {
               </ul>
             </div>
 
-            <div className="mt-8">
-              <button
-                className="bg-yellow-400 hover:bg-yellow-300 transition-all w-full 
+            <form onSubmit={handleSubmit}>
+              <div className="mt-8">
+                <button
+                  className="bg-yellow-400 hover:bg-yellow-300 transition-all w-full 
               rounded-md p-4 text-black font-medium shadow-xl"
-              >
-                Login
-              </button>
-            </div>
+                >
+                  Login
+                </button>
+              </div>
+              {error && <div className="text-red-500 mt-4">{error}</div>}
+            </form>
 
             <div className="w-full flex gap-1 mt-4">
               <div className="">Not registered yet? </div>
