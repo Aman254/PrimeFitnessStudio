@@ -7,4 +7,6 @@ router
   .get(authController.protect, exercisecontroller.getAllExercises);
 router.route("/:id").get(exercisecontroller.getExercise);
 
+// authController.protect,
+
 module.exports = router;

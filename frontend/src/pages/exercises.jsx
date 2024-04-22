@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useMemo } from "react";
 import { fetchExercises } from "../Services/api";
 import Navbar from "../components/Navbar";
 import Carousel from "../components/Carousel";
 import ExerciseBox from "../components/ExerciseBox";
 
+//Importing Data from the API Backend
 const Exercises = () => {
   const [Exercise, setExercise] = useState([]);
   useEffect(() => {
@@ -13,24 +14,31 @@ const Exercises = () => {
       })
       .catch((error) => console.log(error));
   }, []);
+  // Data Importing Ends Here
 
-  const [index, setIndex] = useState(0);
-  const messages = [
-    "Sweat it out with",
-    "Unleash Your Potential with",
-    "Forge a Stronger, Healthier You at",
-    "Empower Your Fitness Evolution with",
-    "Find Your Strength at",
-  ];
+  console.log(Exercise);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setIndex((prevIndex) => (prevIndex + 1) % messages.length);
-    }, 3000);
+  /**Changing Messages */
+  // const [index, setIndex] = useState(0);
+  // const messages = useMemo(
+  //   () => [
+  //     ["Sweat it out with"],
+  //     ["Unleash Your Potential with"],
+  //     ["Forge a Stronger, Healthier You at"],
+  //     ["Empower Your Fitness Evolution with"],
+  //     ["Find Your Strength at"],
+  //   ],
+  //   []
+  // );
 
-    return () => clearInterval(interval);
-  }, [messages.length]);
-  //   console.log(Exercise);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setIndex((prevIndex) => (prevIndex + 1) % messages.length);
+  //   }, 3000);
+
+  //   return () => clearInterval(interval);
+  // }, [messages.length]);
+
   return (
     <>
       <div className="">
@@ -41,11 +49,11 @@ const Exercises = () => {
           <h1 className="">
             <div className="flex items-center gap-2">
               <span className="text-yellow-400 font-bold font-oswald md:text-6xl text-4xl">
-                {messages[index]}
+                Sweat it out with
               </span>
             </div>
 
-            <div className="mt-20">
+            <div className="mt-10">
               <span className="font-bold font-oswald md:text-6xl text-4xl">
                 Prime Fitness Studio
               </span>
