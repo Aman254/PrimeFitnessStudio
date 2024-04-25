@@ -2,15 +2,16 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Assets/logo.jpeg";
 import { GiHamburgerMenu } from "react-icons/gi";
+import Avatar from "./Avatar";
 
 const Navbar = (props) => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   const handleHamburgerClick = function () {
     setIsOpen(!isOpen);
   };
   return (
     <>
-      <nav className=" fixed top-0 left-0 right-0 z-50 p-2 text-white  bg-transparent md:block hidden">
+      <nav className=" fixed md:releative top-0 left-0 right-0 z-50 p-2 text-white  bg-transparent md:block hidden">
         <div className="max-w-7xl mx-auto">
           <div className="flex justify-between font-poppins">
             <div className="flex items-center gap-2">
@@ -75,7 +76,7 @@ const Navbar = (props) => {
                     className="font-semibold text-yellow-400 p-2 rounded-lg hover:bg-yellow-400 
                   transition-all hover:text-black"
                   >
-                    Login
+                    <Avatar />
                   </Link>
                 </li>
               </ul>
@@ -145,7 +146,7 @@ const Navbar = (props) => {
             <div className=" p-4 bg-yellow-400 transition-all font-bold text-2xl border border-b-black">
               <ul>
                 <li>
-                  <Link to="/login">Login</Link>
+                  <Link to="/login">Sign In</Link>
                 </li>
               </ul>
             </div>

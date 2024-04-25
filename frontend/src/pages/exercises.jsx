@@ -1,9 +1,16 @@
 import React, { useEffect, useState, useMemo } from "react";
 import { fetchExercises } from "../Services/api";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import ExerciseBox from "../components/ExerciseBox";
-import SearchBar from "../components/SearchBar";
+import Bodypart from "../components/Bodypartbox";
 import cImg1 from "../Assets/coursImages/coursImg1.jpg";
+import chestImg from "./../Assets/bodyPartImages/body-part-chest.png";
+import absImg from "./../Assets/bodyPartImages/body-part-abs.png";
+import armsImg from "./../Assets/bodyPartImages/body-part-arms.png";
+import backImg from "./../Assets/bodyPartImages/body-part-back.png";
+import fullImg from "./../Assets/bodyPartImages/body-part-full-body.png";
+import legsImg from "./../Assets/bodyPartImages/body-part-legs.png";
+import shoulderImg from "./../Assets/bodyPartImages/body-part-shoulders.png";
 
 //Importing Data from the API Backend
 const Exercises = () => {
@@ -68,12 +75,33 @@ const Exercises = () => {
               Explore Workouts
             </span>
           </div>
-          <div>
-            <SearchBar />
+          <div className="md:flex w-full justify-around flex-row md:flex-nowrap flex-wrap">
+            <div>
+              <Bodypart Bodypart="Abs" Img={absImg} />
+            </div>
+            <div>
+              <Bodypart Bodypart="Arms" Img={armsImg} />
+            </div>
+            <div>
+              <Bodypart Bodypart="Back" Img={backImg} />
+            </div>
+            <div>
+              <Bodypart Bodypart="Chest" Img={chestImg} />
+            </div>
+            <div>
+              <Bodypart Bodypart="All Exercises" Img={fullImg} />
+            </div>
+            <div>
+              <Bodypart Bodypart="Legs" Img={legsImg} />
+            </div>
+            <div>
+              <Bodypart Bodypart="Shoulders" Img={shoulderImg} />
+            </div>
           </div>
-          <div>dkfjkfgkjgfn</div>
+          <div className="p-2 m-4"></div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

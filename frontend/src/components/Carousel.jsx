@@ -27,7 +27,7 @@ const Carousel = ({ images }) => {
         <img
           src={images[imageNumber]}
           alt=""
-          className="md:h-screen h-[35rem] w-full rounded-lg shadow-lg"
+          className="md:h-screen h-[25rem] w-full rounded-lg shadow-lg"
         />
         <button
           onClick={handleNextImg}
