@@ -19,6 +19,7 @@ const Login = () => {
       };
 
       const response = await loginUser(userData);
+      console.log(response);
       if (response.token) {
         localStorage.setItem("authToken", response.token);
         history("/exercises");
@@ -64,9 +65,7 @@ const Login = () => {
                 />
               </div>
             </div>
-
             {/**Password Box */}
-
             <div className="mt-4">
               <span className="font-medium">Password</span>
               <div className="">
@@ -79,7 +78,6 @@ const Login = () => {
                 />
               </div>
             </div>
-
             <div className="mt-4">
               <ul>
                 <li>
@@ -89,7 +87,6 @@ const Login = () => {
                 </li>
               </ul>
             </div>
-
             <form onSubmit={handleSubmit}>
               <div className="mt-8">
                 <button
@@ -101,7 +98,6 @@ const Login = () => {
               </div>
               {error && <div className="text-red-500 mt-4">{error}</div>}
             </form>
-
             <div className="w-full flex gap-1 mt-4">
               <div className="">Not registered yet? </div>
               <div className="font-semibold hover:text-gray-700 transition-all">

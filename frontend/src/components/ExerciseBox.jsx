@@ -1,7 +1,7 @@
 import React from "react";
 
 const ExerciseBox = (props) => {
-  return <div>Aman</div>;
+  return <div></div>;
 };
 
 export default ExerciseBox;
