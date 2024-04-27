@@ -30,9 +30,7 @@ exports.getExercise = async (req, res, next) => {
 
     res.status(200).json({
       status: "Sucess",
-      data: {
-        exercise,
-      },
+      data: [exercise],
     });
   } catch (error) {
     res.status(400).json({

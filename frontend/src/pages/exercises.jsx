@@ -1,5 +1,5 @@
-import React, { useEffect, useState, useMemo } from "react";
-import { fetchExercises } from "../Services/api";
+import React, { useEffect, useState } from "react";
+
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Bodypart from "../components/Bodypartbox";
@@ -8,24 +8,13 @@ import chestImg from "./../Assets/bodyPartImages/body-part-chest.png";
 import absImg from "./../Assets/bodyPartImages/body-part-abs.png";
 import armsImg from "./../Assets/bodyPartImages/body-part-arms.png";
 import backImg from "./../Assets/bodyPartImages/body-part-back.png";
-import fullImg from "./../Assets/bodyPartImages/body-part-full-body.png";
 import legsImg from "./../Assets/bodyPartImages/body-part-legs.png";
 import shoulderImg from "./../Assets/bodyPartImages/body-part-shoulders.png";
+import WorkoutBox from "../components/WorkoutBox";
+import Workouts from "../components/Workouts";
 
 //Importing Data from the API Backend
 const Exercises = () => {
-  const [Exercise, setExercise] = useState([]);
-  useEffect(() => {
-    fetchExercises()
-      .then((response) => {
-        setExercise(response.data);
-      })
-      .catch((error) => console.log(error));
-  }, []);
-  // Data Importing Ends Here
-
-  console.log(Exercise);
-
   return (
     <>
       <Navbar />
@@ -69,39 +58,53 @@ const Exercises = () => {
             />
           </div>
         </div>
-        <div className="bg-white">
-          <div className="p-4 m-4 text-center">
-            <span className="md:text-4xl text-2xl font-bold text-gray-900">
+
+        <div className="bg-white ">
+          <div className="text-center p-2 m-2">
+            <span className=" md:text-4xl text-2xl font-semibold">
               Explore Workouts
             </span>
           </div>
-          <div className="md:flex w-full justify-around flex-row md:flex-nowrap flex-wrap">
+          {/**BodyPart Images */}
+          <div className="flex w-full max-h-26 items-center flex-wrap justify-around">
             <div>
-              <Bodypart Bodypart="Abs" Img={absImg} />
+              <Bodypart Bodypart={"Abs"} Img={absImg} />
             </div>
             <div>
-              <Bodypart Bodypart="Arms" Img={armsImg} />
+              <Bodypart Bodypart={"Arms"} Img={armsImg} />
             </div>
             <div>
-              <Bodypart Bodypart="Back" Img={backImg} />
+              <Bodypart Bodypart={"Back"} Img={backImg} />
             </div>
             <div>
-              <Bodypart Bodypart="Chest" Img={chestImg} />
+              <Bodypart Bodypart={"Chest"} Img={chestImg} />
+            </div>
+
+            <div>
+              <Bodypart Bodypart={"Shoulders"} Img={shoulderImg} />
             </div>
             <div>
-              <Bodypart Bodypart="All Exercises" Img={fullImg} />
+              <Bodypart Bodypart={"Legs"} Img={legsImg} />
             </div>
-            <div>
-              <Bodypart Bodypart="Legs" Img={legsImg} />
-            </div>
-            <div>
-              <Bodypart Bodypart="Shoulders" Img={shoulderImg} />
-            </div>
-          </div>
-          <div className="p-2 m-4"></div>
+          </div>{" "}
+          <Workouts
+            Exercisename="Incline Chest Press"
+            Equipment="Barbell,Bench"
+            FocusArea="Chest,Triceps"
+          />
+          <Workouts
+            Exercisename="Incline Chest Press"
+            Equipment="Barbell,Bench"
+            FocusArea="Chest,Triceps"
+          />
+          <Workouts
+            Exercisename="Incline Chest Press"
+            Equipment="Barbell,Bench"
+            FocusArea="Chest,Triceps"
+          />
+          <Footer />
         </div>
       </div>
-      <Footer />
     </>
   );
 };
