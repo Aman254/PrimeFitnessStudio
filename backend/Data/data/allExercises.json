@@ -10,9 +10,9 @@
       "Keep your body in a straight line from head to heels, engaging your core muscles",
       "Hold this position for the desired amount of time, keeping your core tight and avoiding sagging or arching"
     ],
-    "imageCover": "Core-image-Cover.jpg",
+    "imageCover": "./Images/Image/gymgirl.jpg",
     "images": ["core-1.jpg", "core-2.jpg"],
-    "videoUrl": "https://www.youtube.com/watch?v=examplePlank"
+    "videoUrl": "https://youtu.be/YmXJp4RtBCM?si=RqZz1FQnS_YtEWX4"
   },
   {
     "id": 1,
@@ -28,7 +28,7 @@
     ],
     "imageCover": "Core-image-Cover.jpg",
     "images": ["core-1.jpg", "core-2.jpg"],
-    "videoUrl": "https://www.youtube.com/watch?v=exampleRussianTwists"
+    "videoUrl": "https://youtu.be/vX2cDW8LUWk?si=w06nIkp9TcMdGx7i"
   },
   {
     "id": 2,
@@ -1188,7 +1188,7 @@
   {
     "id": 77,
     "name": "Tricep Dips",
-    "bodyPart": "Triceps",
+    "bodyPart": "Arms",
     "focusArea": "Triceps, Chest, Shoulders",
     "equipment": "Parallel Bars, Dip Machine",
     "execution": [
@@ -1202,7 +1202,7 @@
   {
     "id": 78,
     "name": "Tricep Rope Pushdown",
-    "bodyPart": "Triceps",
+    "bodyPart": "Arms",
     "focusArea": "Triceps",
     "equipment": "Cable Machine, Rope Attachment",
     "execution": [
@@ -1217,7 +1217,7 @@
   {
     "id": 79,
     "name": "Skull Crushers - EZ-Bar",
-    "bodyPart": "Triceps",
+    "bodyPart": "Arms",
     "focusArea": "Triceps",
     "equipment": "EZ-Bar, Bench",
     "execution": [
@@ -1231,7 +1231,7 @@
   {
     "id": 80,
     "name": "Overhead Tricep Extension - Dumbbell",
-    "bodyPart": "Triceps",
+    "bodyPart": "Arms",
     "focusArea": "Triceps",
     "equipment": "Dumbbell",
     "execution": [
@@ -1245,7 +1245,7 @@
   {
     "id": 81,
     "name": "Tricep Kickbacks - Dumbbell",
-    "bodyPart": "Triceps",
+    "bodyPart": "Arms",
     "focusArea": "Triceps",
     "equipment": "Dumbbells",
     "execution": [
@@ -1259,7 +1259,7 @@
   {
     "id": 82,
     "name": "Close Grip Bench Press",
-    "bodyPart": "Triceps",
+    "bodyPart": "Arms",
     "focusArea": "Triceps, Chest, Shoulders",
     "equipment": "Barbell, Bench",
     "execution": [
@@ -1273,7 +1273,7 @@
   {
     "id": 83,
     "name": "Tricep Pushdown - Straight Bar",
-    "bodyPart": "Triceps",
+    "bodyPart": "Arms",
     "focusArea": "Triceps",
     "equipment": "Cable Machine, Straight Bar Attachment",
     "execution": [
@@ -1288,7 +1288,7 @@
   {
     "id": 85,
     "name": "Diamond Push-Ups",
-    "bodyPart": "Triceps",
+    "bodyPart": "Arms",
     "focusArea": "Triceps, Chest, Shoulders",
     "equipment": "Body Weight",
     "execution": [
@@ -1302,7 +1302,7 @@
   {
     "id": 86,
     "name": "Tricep Overhead Extension - Cable",
-    "bodyPart": "Triceps",
+    "bodyPart": "Arms",
     "focusArea": "Triceps",
     "equipment": "Cable Machine, Rope Attachment",
     "execution": [
@@ -1317,7 +1317,7 @@
   {
     "id": 87,
     "name": "Tricep Bench Dips",
-    "bodyPart": "Triceps",
+    "bodyPart": "Arms",
     "focusArea": "Triceps, Chest, Shoulders",
     "equipment": "Bench",
     "execution": [
@@ -1332,7 +1332,7 @@
   {
     "id": 88,
     "name": "Tricep Cable Kickbacks",
-    "bodyPart": "Triceps",
+    "bodyPart": "Arms",
     "focusArea": "Triceps",
     "equipment": "Cable Machine, Single Handle Attachment",
     "execution": [

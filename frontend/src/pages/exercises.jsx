@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
-
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import { Link, Element } from "react-scroll";
 import Bodypart from "../components/Bodypartbox";
 import cImg1 from "../Assets/coursImages/coursImg1.jpg";
 import chestImg from "./../Assets/bodyPartImages/body-part-chest.png";
@@ -10,7 +9,6 @@ import armsImg from "./../Assets/bodyPartImages/body-part-arms.png";
 import backImg from "./../Assets/bodyPartImages/body-part-back.png";
 import legsImg from "./../Assets/bodyPartImages/body-part-legs.png";
 import shoulderImg from "./../Assets/bodyPartImages/body-part-shoulders.png";
-import WorkoutBox from "../components/WorkoutBox";
 import Workouts from "../components/Workouts";
 
 //Importing Data from the API Backend
@@ -42,12 +40,14 @@ const Exercises = () => {
             </div>
 
             <div className="mt-8">
-              <button
-                className="border border-yellow-400 p-4 rounded-lg font-poppins font-normal 
+              <Link to="explore" smooth={true} duration={600}>
+                <button
+                  className="border border-yellow-400 p-4 rounded-lg font-poppins font-normal 
             hover:border-yellow-200 transition-all"
-              >
-                Explore Exercises
-              </button>
+                >
+                  Explore Exercises
+                </button>
+              </Link>
             </div>
           </div>
           <div className="">
@@ -60,15 +60,16 @@ const Exercises = () => {
         </div>
 
         <div className="bg-white ">
+          <Element name="explore" />
           <div className="text-center p-2 m-2">
             <span className=" md:text-4xl text-2xl font-semibold">
               Explore Workouts
             </span>
           </div>
           {/**BodyPart Images */}
-          <div className="flex w-full max-h-26 items-center flex-wrap justify-around">
+          <div className="flex w-full max-h-26 items-center flex-wrap justify-around mt-20">
             <div>
-              <Bodypart Bodypart={"Abs"} Img={absImg} />
+              <Bodypart Bodypart={"Core"} Img={absImg} />
             </div>
             <div>
               <Bodypart Bodypart={"Arms"} Img={armsImg} />
@@ -87,24 +88,12 @@ const Exercises = () => {
               <Bodypart Bodypart={"Legs"} Img={legsImg} />
             </div>
           </div>{" "}
-          <Workouts
-            Exercisename="Incline Chest Press"
-            Equipment="Barbell,Bench"
-            FocusArea="Chest,Triceps"
-          />
-          <Workouts
-            Exercisename="Incline Chest Press"
-            Equipment="Barbell,Bench"
-            FocusArea="Chest,Triceps"
-          />
-          <Workouts
-            Exercisename="Incline Chest Press"
-            Equipment="Barbell,Bench"
-            FocusArea="Chest,Triceps"
-          />
-          <Footer />
+          <div className="mt-10">
+            <Workouts />
+          </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

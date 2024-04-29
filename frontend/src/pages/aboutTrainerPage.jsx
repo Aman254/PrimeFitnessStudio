@@ -1,6 +1,7 @@
 import React from "react";
 import { CiCircleCheck } from "react-icons/ci";
 import gymImg from "../Assets/gymImages/gymImg10.jpg";
+import { Link } from "react-router-dom";
 const aboutTrainerPage = () => {
   return (
     <div className="md:flex flex-row w-full justify-between  items-center">
@@ -47,7 +48,7 @@ const aboutTrainerPage = () => {
           className="mt-10  bg-yellow-400 hover:bg-yellow-200 text-black p-4
         rounded-lg font-bold md:text-xl text-base"
         >
-          Talk in Person
+          <Link to="/contact">Talk in Person</Link>
         </button>
       </div>
       <div className="md:w-1/2 w-full md:mt-0 mt-6">

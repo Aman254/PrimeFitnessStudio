@@ -11,7 +11,7 @@ const Navbar = (props) => {
   };
   return (
     <>
-      <nav className=" fixed md:releative top-0 left-0 right-0 z-50 p-2 text-white  bg-transparent md:block hidden">
+      <nav className="fixed  top-0 left-0 right-0 z-50 p-2 text-white  bg-transparent md:block hidden">
         <div className="max-w-7xl mx-auto">
           <div className="flex justify-between font-poppins">
             <div className="flex items-center gap-2">
