@@ -49,6 +49,7 @@ In the backend folder, navigate to the data folder and run the following command
 ```bash
 cd backend/Data/data
 node import-dev-data.js
+```
 
 ## Usage
 Once you've set up the project, you can run the backend and frontend servers:
