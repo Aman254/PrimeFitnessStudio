@@ -19,7 +19,7 @@ npm install
 
 #### Backend Configuration
 
-Create a file named `.env` in the `backend` folder and add the following environment variables:
+Create a file named `config.env` in the `backend` folder and add the following environment variables:
 
 ```
 PORT=5000
@@ -61,6 +61,3 @@ cd frontend
 npm start
 ```
 
-## Additional Information
-
-Feel free to add any additional information about the project, such as features, contributors, or deployment instructions.
