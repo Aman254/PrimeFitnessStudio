@@ -1,30 +1,23 @@
-# Prime Fitness Gym Website
-
+Prime Fitness Gym Website
 Welcome to the Prime Fitness Gym Website repository! This repository contains the codebase for our gym's website.
 
-## Project Setup
+Project Setup
 
-### Cloning the Project
-
-```bash
+Cloning the Project
 git clone <repository-url>
-Backend Setup
-bash
 
+Backend Setup
 cd backend
 npm install
+
 Backend Configuration
 Create a file named .env in the backend folder and add the following environment variables:
-
-
-
 PORT=5000
 DATABASE=<YOUR_MONGODB_URI>
 JWT_SECRET=<YOUR_JWT_SECRET>
 JWT_EXPIRES_IN=90d
+
 Frontend Setup
-
-
 cd frontend
 npm install
 Frontend Configuration
@@ -36,10 +29,9 @@ Usage
 Once you've set up the project, you can run the backend and frontend servers:
 
 Run Backend Server
-
 cd backend
 npm start
-Run Frontend Server
 
+Run Frontend Server
 cd frontend
 npm start
