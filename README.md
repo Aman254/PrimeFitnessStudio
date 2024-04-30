@@ -41,7 +41,7 @@ Create a file named `.env` in the root of the `frontend` folder and add the foll
 
 ```
 REACT_APP_API_URL=http://localhost:5000/api/v1
-
+```
 #### Import Development Data
 
 In the backend folder, navigate to the data folder and run the following command:
@@ -49,7 +49,6 @@ In the backend folder, navigate to the data folder and run the following command
 ```bash
 cd backend/Data/data
 node import-dev-data.js
-```
 
 ## Usage
 Once you've set up the project, you can run the backend and frontend servers:
