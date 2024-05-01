@@ -2,7 +2,7 @@ const User = require("./../Models/userModel");
 
 exports.getAllUsers = async (req, res, next) => {
   const users = await User.find();
-
+  console.log("called");
   //Send Response
   res.status(200).json({
     status: "Sucess",
