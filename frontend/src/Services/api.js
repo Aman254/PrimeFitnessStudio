@@ -5,7 +5,7 @@ import API from "./apiConfig";
 export const fetchExercises = async (bodyPart) => {
   if (bodyPart) {
     try {
-      const response = await API.get(`/exercises/${bodyPart}`);
+      const response = await API.get(`/exercises?bodyPart=${bodyPart}`);
       if (response.data && response.data.status === "Sucess") {
         return response.data;
       } else {
@@ -31,9 +31,6 @@ export const fetchExercises = async (bodyPart) => {
     }
   }
 };
-
-// get exercise using exercise(plank crunches etc..) id
-export const fetchExerciseWithId = (id)=> API.get(`/exercises/exercisemodal/${id}`);
 
 //User Login
 export const loginUser = (userData) => API.post("/users/login", userData);

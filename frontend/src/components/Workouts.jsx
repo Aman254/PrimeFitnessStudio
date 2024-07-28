@@ -7,6 +7,7 @@ import { useExercise } from "../Context/Exercisecontext";
 const Workouts = () => {
   const [Exercise, setExercise] = useState([]);
   const { selectedBodyPart } = useExercise();
+  console.log(selectedBodyPart);
 
   useEffect(() => {
     try {
@@ -76,7 +77,7 @@ const Workouts = () => {
               hover:bg-yellow-200 transition-all"
               onClick={console.log(exercise.index)}
             >
-              <Link to={`/exercises/exercisemodal/${exercise._id}`} >View Details</Link>
+              <Link to="/exercises/exercisemodal">View Details</Link>
             </button>
           </div>
         </div>

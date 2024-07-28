@@ -45,7 +45,7 @@ const App = () => {
       element: <Errormessage />,
     },
     {
-      path: "/exercises/exercisemodal/:id",
+      path: "/exercises/exercisemodal",
       element: <Viewdetails />,
     },
   ]);
