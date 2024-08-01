@@ -77,7 +77,7 @@ export default function Modal() {
                     onClick={() => setOpen(false)}
                     ref={cancelButtonRef}
                   >
-                    <Link to="/signup">Signup</Link>
+                    <Link to="/signup">Sign Up</Link>
                   </button>
                 </div>
               </Dialog.Panel>
