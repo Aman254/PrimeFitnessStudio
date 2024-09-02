@@ -1,2 +1,2 @@
 console.log("Hello Aman")
-console.log("Hello Aman v-6)
+console.log("Hello Aman v-6")
